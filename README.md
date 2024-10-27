@@ -15,4 +15,27 @@
 - Улучшить модель и максимизировать метрику roc_auc (пороговое значение 0.7)
 - Выполнить тестирование
 
- 
+### Как запустить проект:
+
+Клонировать репозиторий и перейти в него в командной строке:
+
+```
+git clone https://github.com/Maxisience/marketing_prct.git
+```
+
+```
+cd marketing_prct
+```
+Cоздать и активировать виртуальное окружение:
+
+Windows
+```
+python -m venv venv
+source venv/Scripts/activate
+```
+
+Установить зависимости из файла requirements.txt:
+
+```
+pip install -r requirements.txt
+```
